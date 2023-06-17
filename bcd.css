@@ -1,180 +1,231 @@
 body{
-  background:linear-gradient(to right, black,#3533cd )
-}
-
-.title{   /*大標題*/
-  margin: 1vw;
-  font-family:'標楷體' ;
-  font-weight: 500;
-  font-size: 100px;
-  text-align: center;
-  color: white;
-}
-.all-menu{  /*一整個目錄*/
-  margin:0vw 10vw 5vw 10vw;
-  background-color: #d9d9d9;
-  border:#183459 1vw solid;
-  border-radius: 1vw;
-  color:black;
-  padding:1vw; 
-}
-.menu{  /*"目錄"*/
-  font-size: 70px;
-  text-align: center; 
-  font-weight: 900;
-  width:100%;
-}
-.lg{    /*一整個網頁開發基礎語言介紹*/
-  float:left;
-}
-.t{ /*目錄的小標題(一整個網頁開發基礎語言介紹、編輯軟體介紹)*/
-  font-size: 40px;
-  font-weight: 900;
-
-}
-.c{ /*目錄的內容們*/
-  font-size: 30px;
-  font-weight: 500;
-}
-.sw{    /*一整個編輯軟體介紹*/
-  text-align: right;
-}
-*{  /*整個網頁*/
-  margin:0%
-}
-.title-html{    /*一整個虛線黃旗部分*/
-  position:relative;
-  margin-top: 10vw;
-}
-.dash{  /*虛線*/
-  position: absolute;
-  width:100%;
-  border-bottom: white dashed 5px;
-  z-index: -1;
-}
-.pic-w-html{        /*"html"*/
-  position:relative;
-  font-size:120px;
-  color:white;
-  font-family:'Courier New';
-  bottom:60px;
-  margin-left:5vw;
+    background:linear-gradient(to right, black,#3533cd )
+  }
   
-}
-.intro{     /*一整個介紹(適用html,css,javascript,vscode)*/
-  margin-top: 3vw;
-}
-.intro-t{   /*"簡介"*/
-  font-size: 70px;
-  font-family: '標楷體';
-  color: #f1d979;
-  border-bottom: 0.3vw solid white; width: 14vw;
-}
-.intro-w-h{            /*html簡介的文字*/
-  float:left;
-  font-size: 35px;
-  color:white;
-  width: 35vw;
-  border: #f1d979 0.3vw solid;
-  margin:4vw 0 0vw 7vw;
-  border-radius: 17vw;
-  padding:3vw;
-}
-.intro-pic-h{   /*html的圖片*/
-  position: relative;
-  width: 37vw;
-  margin: 5vw; 
-  float: right; 
-  bottom: 10vw;
-  border-radius: 50%; 
-}
+  .title{   /*大標題*/
+    margin: 1vw;
+    font-family:'標楷體' ;
+    font-weight: 500;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+  }
+  .all-menu{  /*一整個目錄*/
+    margin:0vw 10vw 5vw 10vw;
+    background-color: #d9d9d9;
+    border:#183459 1vw solid;
+    border-radius: 1vw;
+    color:black;
+    padding:1vw; 
+  }
+  .menu{  /*"目錄"*/
+    font-size: 70px;
+    text-align: center; 
+    font-weight: 900;
+    width:100%;
+  }
+  .lg{    /*一整個網頁開發基礎語言介紹*/
+    float:left;
+  }
+  .t{ /*目錄的小標題(一整個網頁開發基礎語言介紹、編輯軟體介紹)*/
+    font-size: 40px;
+    font-weight: 900;
+  
+  }
+  .c{ /*目錄的內容們*/
+    font-size: 30px;
+    font-weight: 500;
+  }
+  .sw{    /*一整個編輯軟體介紹*/
+    text-align: right;
+  }
+  *{  /*整個網頁*/
+    margin:0%
+  }
+  .title-html{    /*一整個虛線黃旗部分*/
+    position:relative;
+    margin-top: 10vw;
+  }
+  .dash{  /*虛線*/
+    position: absolute;
+    width:100%;
+    border-bottom: white dashed 5px;
+    z-index: -1;
+  }
+  .pic-w-html{        /*"html"*/
+    position:relative;
+    font-size:120px;
+    color:white;
+    font-family:'Courier New';
+    bottom:60px;
+    margin-left:5vw; 
+  }
 
-.ele{   /*"基礎程式入門"*/
-  font-size: 62.5px;
-  margin: 37.5vw 0vw 0vw 0vw;
-  text-align: right;
-  font-family: '標楷體';
-  color: #f1d979;
-  width: 14vw;
-}
-.e{
-  right:0vw;
-  border-bottom: 0.3vw solid white;
-  position:absolute;
-  width: 35%;
-}
-.circle{
-  padding:8vw;
-  border-radius: 50%;
-  border:white 0.3vw solid;
-}
-.intro-h-one{   /*圓內全部的字*/
-  font-size:40px;
-  width:50vw;
-  text-align: left;
-  color:white;
-  margin:50vw 0 0 2vw;
-}.line{
-  border-top:red 0.3vw solid;
-  border-bottom:red 0.3vw solid;
-  border-right:red 0.3vw solid;
-}
-.flw{   /*第一條紅線旁的字*/
-  font-size:35px;
-  float:right;
-  color:white;
-  position:relative;
-  bottom:48vw;
-  right:5vw;
-}
-.slw{   /*第二條紅線旁的字*/
-  font-size: 35px;
-  color:white;
-  position:relative;
-  left:43.5vw;
-  bottom:27.5vw;
-  width:fit-content;
-  border-bottom: 0.3vw solid red;
-}
-.intro-h-tt{   /*2nd&3rd 圓內全部的字*/
-  font-size:40px;
-  width:50vw;
-  text-align: left;
-  color:white;
-  margin:0 0 0 2vw;
-}
-.flw-two{   /*2nd 第一條紅線旁的字*/
-  font-size: 35px;
-  color:white;
-  position:relative;
-  left:43.5vw;
-  bottom:32vw;
-  width:fit-content;
-  border-bottom: 0.3vw solid red;
-}
-.slw-two{   /*2nd 第二條紅線旁的字*/
-  font-size: 35px;
-  color:white;
-  position:relative;
-  left:43.5vw;
-  bottom:28vw;
-  width:fit-content;
-  border-bottom: 0.3vw solid red;
-}
-.flw-three{   /*3rd 第一條紅線旁的字*/
-  font-size:35px;
-  float:right;
-  color:white;
-  position:relative;
-  bottom:29vw;
-  right:5vw;
-}
-.slw-three{   /*3rd 第二條紅線旁的字*/
-  font-size: 35px;
-  color:white;
-  position:relative;
-  left:43.5vw;
-  bottom:19vw;
-  width:fit-content;
-  border-bottom: 0.3vw solid red;
-}
+  .intro{     /*一整個介紹(適用html,css,javascript,vscode)*/
+    margin-top: 3vw;
+  }
+  .intro-t{   /*"簡介"*/
+    font-size: 70px;
+    font-family: '標楷體';
+    color: #f1d979;
+    border-bottom: 0.3vw solid white; width: 14vw;
+  }
+  .intro-w-h{            /*html簡介的文字*/
+    float:left;
+    font-size: 35px;
+    color:white;
+    width: 35vw;
+    border: #f1d979 0.3vw solid;
+    margin:4vw 0 0vw 7vw;
+    border-radius: 17vw;
+    padding:3vw;
+  }
+  .intro-pic-h{   /*html的圖片*/
+    position: relative;
+    width: 37vw;
+    margin: 5vw; 
+    float: right; 
+    bottom: 10vw;
+    border-radius: 50%; 
+  }
+  
+  .ele{   /*"基礎程式入門"*/
+    font-size: 62.5px;
+    margin: 37.5vw 0vw 0vw 0vw;
+    text-align: right;
+    font-family: '標楷體';
+    color: #f1d979;
+    width: 14vw;
+  }
+  .e{
+    right:0vw;
+    border-bottom: 0.3vw solid white;
+    position:absolute;
+    width: 30%;
+  }
+  .circle{
+    padding:8vw;
+    border-radius: 50%;
+    border:white 0.3vw solid;
+  }
+  .intro-h-one{   /*圓內全部的字*/
+    font-size:40px;
+    width:50vw;
+    text-align: left;
+    color:white;
+    margin:50vw 0 0 2vw;
+  }.line{
+    border-top:red 0.3vw solid;
+    border-bottom:red 0.3vw solid;
+    border-right:red 0.3vw solid;
+  }
+  .flw{   /*第一條紅線旁的字*/
+    font-size:35px;
+    float:right;
+    color:white;
+    position:relative;
+    bottom:48vw;
+    right:5vw;
+  }
+  .slw{   /*第二條紅線旁的字*/
+    font-size: 35px;
+    color:white;
+    position:relative;
+    left:43.5vw;
+    bottom:27.5vw;
+    width:fit-content;
+    border-bottom: 0.3vw solid red;
+  }
+  .intro-h-tt{   /*2nd&3rd 圓內全部的字*/
+    font-size:40px;
+    width:50vw;
+    text-align: left;
+    color:white;
+    margin:0 0 0 2vw;
+  }
+  .flw-two{   /*2nd 第一條紅線旁的字*/
+    font-size: 35px;
+    color:white;
+    position:relative;
+    left:43.5vw;
+    bottom:32vw;
+    width:fit-content;
+    border-bottom: 0.3vw solid red;
+  }
+  .slw-two{   /*2nd 第二條紅線旁的字*/
+    font-size: 35px;
+    color:white;
+    position:relative;
+    left:43.5vw;
+    bottom:28vw;
+    width:fit-content;
+    border-bottom: 0.3vw solid red;
+  }
+  .flw-three{   /*3rd 第一條紅線旁的字*/
+    font-size:35px;
+    float:right;
+    color:white;
+    position:relative;
+    bottom:30vw;
+    right:5vw;
+  }
+  .slw-three{   /*3rd 第二條紅線旁的字*/
+    font-size: 35px;
+    color:white;
+    position:relative;
+    left:43.5vw;
+    bottom:19vw;
+    width:fit-content;
+    border-bottom: 0.3vw solid red;
+  }
+  .pic-w-css{        /*"css"*/
+    position:relative;
+    font-size:120px;
+    color:white;
+    font-family:'Courier New';
+    bottom:60px;
+    margin-left:35vw; 
+  }
+  .intro-w-c{     /*css的介紹*/
+    float: right;
+    font-size: 35px;
+    color:white;
+    width: 43vw;
+    border: #f1d979 0.3vw solid;
+    margin:4vw 6vw 0vw 0vw;
+    border-radius: 17vw;
+    padding:4vw;
+  }
+  .intro-pic-c{     /*css的圖片*/
+    position: relative;
+    width: 30vw;
+    margin: 5vw; 
+    float: right; 
+    border-radius: 50%; 
+    bottom:3vw;
+  }
+  .basic-intro{      /*整個css的基本字型介紹*/
+    position:absolute;
+    color:white;
+    width:50vw;
+    text-align: center;
+    margin:10vw 5vw 5vw 5vw;
+    background-color: #183459;
+    border-radius: 2vw;
+    padding:2vw;
+    z-index: -1;
+  }
+  .basic-intro-w{       /*基本字型介紹的內容*/
+    font-size: 35px;
+    
+  }
+  .frame{   /*黃色框框*/
+    border-radius: 7vw;
+    border:#f1d979 1px solid;
+    padding:0.5vw;
+  }
+  .photo-c{        /*介紹css字型的圖片*/
+    float:right;
+    margin:10vw 5vw 5vw 5vw;
+    width: 25vw;
+  }
