@@ -1,5 +1,6 @@
 body{
-  background:linear-gradient(to right, black,#3533cd )
+  background:linear-gradient(to right, black,#3533cd );
+  overflow-x:hidden
 }
 
 .title{   /*大標題*/
@@ -40,7 +41,7 @@ body{
   text-align: right;
 }
 *{  /*整個網頁*/
-  margin:0%
+  margin:0%;
 }
 .title-html{    /*一整個虛線黃旗部分*/
   position:relative;
@@ -307,4 +308,6 @@ body{
   bottom:4vw;
   font-size: 40px;
   left:40vw;
+  width:5vw;
+  height:20vw;
 }
