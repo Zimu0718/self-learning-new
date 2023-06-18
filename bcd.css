@@ -266,6 +266,7 @@ body{
   color:white;
   margin:50vw 10vw 0 10vw;
   padding:2vw;
+  height:26vw;
 }
 .arrow-1-one{
   position:absolute;
@@ -284,13 +285,14 @@ body{
 }
 .arrow-4-one{
   position:absolute;
-  transform:rotate(180deg);
+  transform:rotate(223deg) translate(0,-745%);
+  margin-left: 48.5vw;
 }
 .word-one{
   position:relative;
   bottom:4vw;
   font-size: 40px;
-  left:40vw
+  left:40vw;
 }
 .fp{
   width:80vw;
@@ -299,4 +301,10 @@ body{
   color:white;
   margin:5vw 10vw 0 10vw;
   padding:3vw;
+}
+.word-two{
+  position:relative;
+  bottom:4vw;
+  font-size: 40px;
+  left:40vw;
 }
