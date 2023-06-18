@@ -1,6 +1,5 @@
 body{
   background:linear-gradient(to right, black,#3533cd );
-  overflow-x:hidden
 }
 
 .title{   /*大標題*/
@@ -302,12 +301,128 @@ body{
   color:white;
   margin:5vw 10vw 0 10vw;
   padding:3vw;
+  height:35vw;
 }
-.word-two{
+.word-two-one{
   position:relative;
-  bottom:4vw;
+  bottom: 4vw;
+  font-size: 40px;
+  left:40vw;
+  width:4vw;
+  height:20vw;
+}
+.word-two-two{
+  position:relative;
+  bottom:2vw;
   font-size: 40px;
   left:40vw;
   width:5vw;
   height:20vw;
+}
+.fp-one{
+  position:relative;
+  bottom:5vw;
+  left:40vw;
+  width:5vw;
+  height:20vw;
+  font-size:60px;
+}
+.fp-two{
+  position:relative;
+  bottom:3vw;
+  left:40vw;
+  width:5vw;
+  height:20vw;
+  font-size:60px;
+}
+.arrow-1-two{
+  position:absolute;
+  transform:rotate(180deg) translate(0,180%);
+  margin-left: 35vw; 
+}
+.arrow-2-two{
+  position:absolute;
+  transform:rotate(205deg) translate(0,-335%);
+  margin-left: 40.5vw; 
+}
+.ch{
+  color:white;
+  border-radius: 5vw;
+  background-color: #183459;
+  width: 80vw;
+  margin:5vw 10vw 0 10vw;
+  padding:3vw;
+  height:35vw;
+}
+.ch-c{
+  background-color: black;
+  width:40vw;
+  border-radius: 5vw;
+  margin:10vw 20vw 10vw 20vw;
+  text-align: center;
+  font-size:50px;
+  padding:1vw;
+}
+.arrow-1-three{
+  position:absolute;
+  transform:rotate(140deg) translate(0,1800%);
+  margin-left: 85vw; 
+}
+.arrow-2-three{
+  position:absolute;
+  transform:translate(0,-700%);
+  margin-left: 13vw; 
+}
+.arrow-3-three{
+  position:absolute;
+  transform:rotate(170deg) translate(0,750%);
+  margin-left: 63vw; 
+}
+.arrow-4-three{
+  position:absolute;
+  transform:rotate(215deg) translate(0,1080%);
+  margin-left: 45vw; 
+}
+.pic-w-vs{        
+  position:relative;
+  font-size:90px;
+  color:white;
+  font-family:'Courier New';
+  bottom:60px;
+  margin-left:35vw; 
+}
+.vscode-pic{
+  margin:0vw 25vw 0vw 25vw; 
+  width:50vw;
+  border: #f1d979 1px solid;
+  border-radius: 7vw;
+  padding:1vw;
+}
+.vscode-pic-w{
+  font-size: 5vw;
+  font-weight: bolder;
+  text-align: center;
+  color:white;
+}
+.js-pic{
+  width:50vw;
+  position:relative;
+  left: 8%;
+  top:5vw;
+}
+.intro-js-w{
+  font-size:90px;
+  color:white;
+  font-weight: bolder;
+  margin:3vw 1vw 3vw 8vw; 
+  text-align: center;
+}
+.com-title{
+  position:relative;
+  bottom:20vw;
+}
+.table-w{
+  font-size:50px;
+  color:white;
+  text-align: center;
 }
