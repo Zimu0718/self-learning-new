@@ -124,7 +124,7 @@ body{
   float:right;
   color:white;
   position:relative;
-  bottom:46.5vw;
+  bottom:48.5vw;
   right:5vw;
 }
 .slw{   /*第二條紅線旁的字*/
@@ -166,7 +166,7 @@ body{
   float:right;
   color:white;
   position:relative;
-  bottom:29vw;
+  bottom:30vw;
   right:5vw;
 }
 .slw-three{   /*3rd 第二條紅線旁的字*/
@@ -232,36 +232,71 @@ body{
 .basic-intro-i{      /*整個css的設定內外距介紹*/
   position:absolute;
   color:white;
-  width:50vw;
+  width:40vw;
   text-align: center;
   float: right;
-  margin:50vw 10vw 0 43vw;
+  margin:0vw 5vw 0 43vw;
   background-color: #183459;
   border-radius: 2vw;
   padding:2vw;
+  transform: translate(20%,-100%);
 }
-.pic-w-js{        /*"JavaScript"*/
+.pic-w-js{        /*"Java script"*/
   position:relative;
   font-size:120px;
   color:white;
   font-family:'Courier New';
-  top:10vw;
-  margin:0 0 0 45vw; 
+  bottom:60px;
+  margin-left:40vw; 
 }
-.dash-js{  /*js的虛線*/
-  position: absolute;
-  top:87vw;
-  width:100%;
-  border-bottom: white dashed 0.3vw;
-  z-index: -1;
-}
-.intro-js{     /*一整個介紹(js)*/
-  margin-top: 15vw;
-}
+
 .intro-pic-js{     /*js的圖片*/
   position: relative;
   width: 30vw;
   margin: 5vw; 
   float: right; 
   bottom:3vw;
+  background-color: white;
+}
+
+.o{
+  width:80vw;
+  border-radius: 5vw;
+  background-color: #183459;
+  color:white;
+  margin:50vw 10vw 0 10vw;
+  padding:2vw;
+}
+.arrow-1-one{
+  position:absolute;
+  transform:rotate(180deg) translate(0,180%);
+  margin-left: 35vw; 
+}
+.arrow-2-one{
+  position:absolute;
+  transform:rotate(197deg) translate(0,-60%);
+  margin-left: 35.91vw;
+}
+.arrow-3-one{
+  position:absolute;
+  transform:rotate(211deg) translate(0,-340%);
+  margin-left: 40.3vw;
+}
+.arrow-4-one{
+  position:absolute;
+  transform:rotate(180deg);
+}
+.word-one{
+  position:relative;
+  bottom:4vw;
+  font-size: 40px;
+  left:40vw
+}
+fp{
+  width:80vw;
+  border-radius: 5vw;
+  background-color: #183459;
+  color:white;
+  margin:5vw 10vw 0 10vw;
+  padding:3vw;
 }
