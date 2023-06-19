@@ -124,7 +124,7 @@ body{
   float:right;
   color:white;
   position:relative;
-  bottom:48.5vw;
+  bottom:47vw;
   right:5vw;
 }
 .slw{   /*第二條紅線旁的字*/
@@ -166,7 +166,7 @@ body{
   float:right;
   color:white;
   position:relative;
-  bottom:30vw;
+  bottom:29vw;
   right:5vw;
 }
 .slw-three{   /*3rd 第二條紅線旁的字*/
@@ -389,7 +389,7 @@ body{
   color:white;
   font-family:'Courier New';
   bottom:60px;
-  margin-left:35vw; 
+  margin-left:30vw; 
 }
 .vscode-pic{
   margin:0vw 25vw 0vw 25vw; 
@@ -421,8 +421,45 @@ body{
   position:relative;
   bottom:20vw;
 }
-.table-w{
-  font-size:50px;
+table{
+  font-size:37.5px;
+  width:70vw;
+  border: 0.1vw solid #fff;
   color:white;
   text-align: center;
+  border-collapse: collapse;
+  margin-left:auto; 
+  margin-right:auto;
+}
+td{
+  border: 0.1vw solid #fff;
+  padding: 0.3vw;
+}
+.other{   
+  font-size: 70px;
+  text-align: center;
+  font-family: '標楷體';
+  color: #f1d979;
+  border-bottom: 0.3vw solid white; 
+  width: 100vw;
+  position: absolute;
+  margin-top: 65vw;
+}
+.link{
+  font-size: 140px;
+  position: absolute;
+  text-align: center;
+  color: #fff;
+  border-bottom: 0vw solid white; 
+  width: 100vw;
+  margin-top: 80vw;
+}
+.end{
+  font-size: 70px;
+  text-align: center;
+  color: #fff;
+  border-bottom: 0.3vw solid white; 
+  width: 100vw;
+  position: absolute;
+  margin-top: 100vw;
 }
