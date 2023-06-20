@@ -124,7 +124,7 @@ body{
   float:right;
   color:white;
   position:relative;
-  bottom:47vw;
+  bottom:48.5vw;
   right:5vw;
 }
 .slw{   /*第二條紅線旁的字*/
@@ -166,7 +166,7 @@ body{
   float:right;
   color:white;
   position:relative;
-  bottom:29vw;
+  bottom:30vw;
   right:5vw;
 }
 .slw-three{   /*3rd 第二條紅線旁的字*/
@@ -441,9 +441,9 @@ td{
   font-family: '標楷體';
   color: #f1d979;
   border-bottom: 0.3vw solid white; 
-  width: 100vw;
+  width: 100%;
   position: absolute;
-  margin-top: 65vw;
+  margin-top: 80vw;
 }
 .link{
   font-size: 140px;
@@ -451,15 +451,15 @@ td{
   text-align: center;
   color: #fff;
   border-bottom: 0vw solid white; 
-  width: 100vw;
-  margin-top: 80vw;
+  width: 100%;
+  margin-top: 85vw;
 }
 .end{
   font-size: 70px;
   text-align: center;
   color: #fff;
   border-bottom: 0.3vw solid white; 
-  width: 100vw;
+  width: 100%;
   position: absolute;
   margin-top: 100vw;
 }
